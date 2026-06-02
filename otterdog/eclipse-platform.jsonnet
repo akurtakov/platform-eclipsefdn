@@ -312,6 +312,7 @@ orgs.newOrg('eclipse.platform', 'eclipse-platform') {
     orgs.newRepo('eclipse.platform.swt') {
       default_branch: "master",
       allow_squash_merge: false,
+      allow_auto_close: true,
       delete_branch_on_merge: true,
       description: "Eclipse SWT - The Standard Widget Toolkit",
       has_discussions: true,
